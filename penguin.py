@@ -7,7 +7,6 @@ def peng(x):
 		return service + rest
 	else:
 		eat += peng(service + rest)
-
 	return eat
 
 print(peng(20))
